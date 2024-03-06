@@ -15,7 +15,6 @@ export async function POST(req: Request) {
       "get",
       `user:email:${emailToAdd}`
     )) as string;
-    console.log(idToAdd);
 
     if (!idToAdd)
       return new Response("This person does not exist.", { status: 400 });
