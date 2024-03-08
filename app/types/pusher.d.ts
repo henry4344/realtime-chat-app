@@ -1,4 +1,4 @@
 interface IncomingFriendRequest {
-  sednerId: string;
+  senderId: string;
   senderEmail: string | null | undefined;
 }
